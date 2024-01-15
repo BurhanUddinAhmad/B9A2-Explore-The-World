@@ -1,0 +1,46 @@
+
+@media (max-width:600px) {
+    .container {
+        width: 95%;
+    }
+    /* Responsive Navbar */
+    nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: .8rem;
+    }
+    nav > .nav-btn > label {
+      display: inline-block;
+      width: 5rem;
+      height: 5rem;
+      padding: 1.5rem;
+    }
+    nav > .nav-btn > label > i {
+      font-size: 2rem;
+      color: #424247;
+    }
+    nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      box-shadow: 0 .1rem .4rem 0 rgba(0, 0, 0, 0.1);
+      height: 0;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 5.5rem;
+      left: 0;
+    }
+    nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0;
+    }
+    nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
