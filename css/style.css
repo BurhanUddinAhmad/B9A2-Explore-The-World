@@ -17,7 +17,7 @@
     margin: 0 auto;
 }
 section {
-    margin-bottom: 10rem;
+    margin-top: 10rem;
 }
 button {
     border: none;
@@ -31,6 +31,18 @@ button {
 button:hover {
     background: #c64302;
     cursor: pointer;
+}
+h2 {
+  font-size: 3rem;
+  color: #131318;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 1.4rem;
+  color: rgba(19, 19, 24, 0.70);
+  line-height: 2.3rem;
+  margin-bottom: 1rem;
 }
 /* ====== Header section Design ====== */
 /* Navbar Design  */
@@ -141,6 +153,39 @@ nav > #nav-check {
     color: rgba(19, 19, 24, 0.50);
 }
 
+/* === Main contents start ====== */
+/* Popular tour  */
+.popular-contents {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.popular-details {
+  flex-basis: 48%;
+}
+.popular-details ul {
+  font-size: 1.4rem;
+  color: rgba(19, 19, 24, 0.70);
+  list-style-position: inside;
+  padding: 0 2rem;
+  margin-bottom: 1.5rem;
+}
+.popular-details ul li {
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  margin: 1rem 0;
+}
+.popular-details button {
+  margin-top: 2rem;
+}
+.popular-photo {
+  flex-basis: 48%;
+  border-radius: 1rem;
+}
+.popular-photo img {
+  width: 100%;
+  height: 100%;
+}
 
 /* ======= Footer style ========  */
 footer {

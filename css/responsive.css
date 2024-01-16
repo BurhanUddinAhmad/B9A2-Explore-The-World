@@ -71,5 +71,12 @@
         display: block;
         width: 100%;
     }
+    /* Popular tour  */
+    .popular-contents {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+
   }
   
