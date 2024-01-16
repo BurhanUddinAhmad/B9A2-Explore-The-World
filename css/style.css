@@ -256,6 +256,16 @@ nav > #nav-check {
   border-radius: 1rem;
   grid-column: span 8;
 }
+
+/* ==== Why choose us ===== */
+.why-chose-us-contents {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 22rem);
+}
+
+
+
 /* ======= Footer style ========  */
 footer {
   margin-top: 10rem;
