@@ -363,6 +363,61 @@ nav > #nav-check {
   grid-column: 3/10;
 }
 
+/* ==== Start What Travelers Say ===== */
+.what-say-contents {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.single-what-say {
+  flex-basis: 32%;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: .1rem .4rem .5rem 0 rgba(0, 0, 0, 0.2);
+}
+.single-what-say .icon i {
+  font-size: 4rem;
+  color: #FF5400;
+}
+.single-what-say .profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem auto;
+}
+.single-what-say .profile .pic {
+  max-width: 10rem;
+}
+.single-what-say .profile .pic img {
+  width: 100%;
+  border-radius: 50%;
+}
+.single-what-say .profile .profile-detail {
+  width: 70%;
+  text-align: left;
+  margin-left: 1.2rem;
+}
+.profile .profile-detail p {
+  margin-bottom: .5rem;
+}
+.profile .profile-detail p i {
+  font-size: 1.4rem;
+  color: #FF5400;
+}
+.profile .profile-detail h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #424247;
+  margin-bottom: .5rem;
+}
+.profile .profile-detail h5 {
+  font-size: 1.4rem;
+  color: #5A5A5D;
+  margin-bottom: .5rem;
+}
+/* ==== End What Travelers Say ===== */
+
 /* ==== Newsletter Section ===== */
 .newsletter-contents {
   display: flex;

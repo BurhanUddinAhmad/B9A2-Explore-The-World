@@ -113,6 +113,14 @@
     .single-package {
       flex-basis: 100%;
     }
+    /* ==== Start What Travelers Say ===== */
+    .what-say-contents {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .single-what-say {
+      flex-basis: 100%;
+    }
 
 
 }
