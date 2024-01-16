@@ -97,18 +97,17 @@ nav > .nav-links {
   margin-top: 1rem;
 }
 
-nav > .nav-links > a {
+nav > .nav-links  a {
   display: inline-block;
   padding: 1.5rem 1rem;
   text-decoration: none;
   color: #424247;
   transition: .3s ease;
 }
-
-nav > .nav-links > a:hover {
-  color: #000;
+nav > .nav-links  a:hover,
+nav > .nav-links .selected {
+  color: #FF5400;
 }
-
 nav > #nav-check {
   display: none;
 }
@@ -190,12 +189,16 @@ nav > #nav-check {
 .popular-photo {
   flex-basis: 48%;
   border-radius: 1rem;
+  overflow: hidden;
 }
 .popular-photo img {
   width: 100%;
   height: 100%;
+  transition: .3s ease;
 }
-
+.popular-photo img:hover {
+  transform: scale(1.1);
+}
 /* ======Start Choose your destination === */
 .destination-contents {
   display: grid;
@@ -210,6 +213,10 @@ nav > #nav-check {
   color: #fff;
   font-size: 2rem;
   font-weight: 800;
+  transition: all .3s ease;
+}
+.destination-contents > div:hover {
+  font-size: 3rem;
 }
 .image1 {
   background: url('../images/maldive.png') no-repeat;
