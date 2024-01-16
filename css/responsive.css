@@ -94,6 +94,18 @@
       justify-content: center;
     }
 
+    /* ==== Newsletter Section ===== */
+    .newsletter-contents {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .newsletter-contents form {
+      width: 100%;
+    }
+    .newsletter-contents .discount {
+      width: 100%;
+    }
 
-  }
+
+}
   
