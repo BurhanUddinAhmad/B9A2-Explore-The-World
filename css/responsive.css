@@ -105,6 +105,14 @@
     .newsletter-contents .discount {
       width: 100%;
     }
+    /* ======= Start Travel Packages ==== */
+    .package-contents {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .single-package {
+      flex-basis: 100%;
+    }
 
 
 }
