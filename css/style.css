@@ -261,7 +261,38 @@ nav > #nav-check {
 .why-chose-us-contents {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, 22rem);
+  grid-template-rows: repeat(2, auto);
+  gap: 2rem;
+}
+.why-chose-us-contents h4 {
+  font-size: 2rem;
+  color: #131318;
+  font-weight: 800;
+  margin: 1rem 0;
+}
+.why-chose-us-contents p {
+  max-width: 95%;
+}
+.why-chose-us-contents .content1 {
+  padding: 1.5rem;
+  background: rgba(251, 181, 99, 0.05);
+  border: .1rem solid rgba(251, 181, 99, 0.20);
+  border-radius: 1rem;
+  grid-column: span 6;
+}
+.why-chose-us-contents .content2 {
+  padding: 1.5rem;
+  border: .1rem solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  border-radius: 1rem;
+  grid-column: span 6;
+}
+.why-chose-us-contents .content3 {
+  padding: 1.5rem;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  border-radius: 1rem;
+  grid-column: 3/10;
 }
 
 

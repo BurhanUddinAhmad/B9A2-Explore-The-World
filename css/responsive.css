@@ -87,5 +87,13 @@
       justify-content: center;
     }
 
+    /* ==== Why choose us ===== */
+    .why-chose-us-contents {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+
   }
   
