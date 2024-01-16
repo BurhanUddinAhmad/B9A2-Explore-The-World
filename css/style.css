@@ -44,6 +44,11 @@ p {
   line-height: 2.3rem;
   margin-bottom: 1rem;
 }
+.section-title {
+  max-width: 65rem;
+  margin: 3rem auto;
+  text-align: center;
+}
 /* ====== Header section Design ====== */
 /* Navbar Design  */
 nav {
@@ -187,6 +192,70 @@ nav > #nav-check {
   height: 100%;
 }
 
+/* ====== Choose your destination === */
+.destination-contents {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 22rem);
+  gap: 1rem;
+}
+.destination-contents > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.image1 {
+  background: url('../images/maldive.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1rem;
+  grid-column: span 6;
+}
+.image2 {
+  background: url('../images/indo.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1rem;
+  grid-column: span 6;
+}
+.image3 {
+  background: url('../images/srilanka.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1rem;
+  grid-column: span 3;
+}
+.image4 {
+  background: url('../images/america.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1rem;
+  grid-column: span 6;
+}
+.image5 {
+  background: url('../images/kashmir.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1rem;
+  grid-column: span 3;
+}
+.image6 {
+  background: url('../images/bangladesh.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1rem;
+  grid-column: span 4;
+}
+.image7 {
+  background: url('../images/bandarban.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1rem;
+  grid-column: span 8;
+}
 /* ======= Footer style ========  */
 footer {
   margin-top: 10rem;
